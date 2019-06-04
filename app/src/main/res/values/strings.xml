@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">baraka</string>
+
+    <string name="a"></string>
+
+    <string name="skip">Skip</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="already_member">Already a member?</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="ok">Ok</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+
+    <string name="password_recovery">Password Recovery</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="address">Address</string>
+
+    <string name="is_invalid">is invalid.</string>
+    <string name="password_not_matched">Password does not matched.</string>
+    <string name="network_not_connected">No network connection. Please try again.</string>
+    <string name="failed_request">Please try again.</string>
+
+    <string name="home">Home</string>
+    <string name="products">Products</string>
+    <string name="provinces">Provinces</string>
+    <string name="categories">Categories</string>
+    <string name="made_by_katutubos">Made by Katutubos</string>
+    <string name="b2b">B2B</string>
+    <string name="my_account">My Account</string>
+    <string name="logout">Logout</string>
+
+    <string name="new_products">New Products</string>
+    <string name="best_sellers">Best Sellers</string>
+    <string name="featured_products">Featured Products</string>
+    <string name="featured_stores">Featured Stores</string>
+    <string name="trending">Trending</string>
+    <string name="conditional">Conditional</string>
+    <string name="related_products">Related Products</string>
+
+    <string name="pass_should_contain">Password should contain at least 6 characters.</string>
+    <string name="invalid_credentials">Invalid credentials.</string>
+
+    <string name="overview">Overview</string>
+    <string name="details">Details</string>
+    <string name="reviews">Reviews</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vestibulum sodales, ipsum commodo elementum posuere, urna ligula pulvinar sapien, in semper felis magna et sem.
+        Duis mattis vitae felis ac convallis. Pellentesque posuere varius malesuada.
+        Maecenas et molestie nibh, nec pharetra lorem. Sed pretium ac nunc vitae finibus.
+        Donec vel sapien ut massa dapibus malesuada lobortis et ante.
+        Proin eget augue commodo, convallis mauris ac, ornare nunc.
+        Aliquam dapibus nulla sed bibendum dictum.
+        Suspendisse rutrum erat at odio varius, nec porttitor orci consequat.
+        In hac habitasse platea dictumst. Proin mattis dapibus metus, blandit molestie leo varius ut.
+        Donec aliquet convallis urna sed ultricies. Vivamus tincidunt suscipit efficitur.
+    </string>
+
+    <string name="write_a_review">Write a review</string>
+    <string name="rating">Rating</string>
+    <string name="summary">Summary</string>
+    <string name="review">Review</string>
+    <string name="feedback">Feedback</string>
+    <string name="comment">Comment</string>
+
+    <string name="stocks">Stocks</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="stocks_left">stocks left</string>
+
+    <string name="posted_by">Posted by</string>
+    <string name="juan_dela_cruz">Juan Dela Cruz</string>
+    <string name="sample_date">January 1, 1990</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="cart">Cart</string>
+    <string name="search">Search</string>
+
+    <string name="cart_continue">Continue</string>
+    <string name="wishlist">Wishlist</string>
+
+
+
+</resources>

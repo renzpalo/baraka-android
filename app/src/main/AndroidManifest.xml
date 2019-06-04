@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.renzpalo.baraka">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.renzpalo.baraka.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.renzpalo.baraka.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.renzpalo.baraka.home.HomeActivity">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"
+                />
+        </activity>
+        <activity android:name="com.renzpalo.baraka.login.SignInActivity"/>
+        <activity android:name="com.renzpalo.baraka.login.SignUpActivity"/>
+        <activity android:name="com.renzpalo.baraka.login.ForgotPasswordActivity"/>
+        <activity android:name="com.renzpalo.baraka.productPreview.ProductDetails"/>
+        <activity android:name="com.renzpalo.baraka.cart.CartDetails"/>
+        <activity android:name="com.renzpalo.baraka.wishlist.WishlistDetails"/>
+        <activity android:name="com.renzpalo.baraka.checkout.Checkout"/>
+        <activity android:name="com.renzpalo.baraka.account.Address"/>
+        <activity android:name="com.renzpalo.baraka.account.AddAddress"/>
+        <activity android:name="com.renzpalo.baraka.checkout.PaymentOptions"/>
+        <activity android:name="com.renzpalo.baraka.checkout.PlaceOrder"/>
+        <activity android:name="com.renzpalo.baraka.checkout.OrderSuccess"/>
+        <activity android:name="com.renzpalo.baraka.account.Account"/>
+        <activity android:name="com.renzpalo.baraka.account.OrderHistory"/>
+        <activity android:name="com.renzpalo.baraka.account.OrderHistoryDetails"/>
+        <activity android:name="com.renzpalo.baraka.searchProducts.SearchProducts">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.renzpalo.baraka.provinces.Provinces"/>
+        <activity android:name="com.renzpalo.baraka.categories.Categories"/>
+        <activity android:name="com.renzpalo.baraka.provinces.ProvinceProducts"/>
+        <activity android:name="com.renzpalo.baraka.categories.CategoryProducts"/>
+        <activity android:name="com.renzpalo.baraka.store.Store"/>
+
+    </application>
+
+</manifest>

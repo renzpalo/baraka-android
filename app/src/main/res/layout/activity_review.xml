@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_medium_10dp">
+
+    <TextView
+        android:id="@+id/tvReviewSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:text="@string/summary"/>
+
+    <android.support.v7.widget.AppCompatRatingBar
+        android:id="@+id/rbReviewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:numStars="5"
+        android:stepSize=".5"
+        android:isIndicator="true"
+        android:rating="3"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/tvReviewFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvReviewSummary"
+        android:text="@string/lorem_ipsum"
+        android:padding="@dimen/padding_medium_10dp" />
+
+    <TextView
+        android:id="@+id/tvPostedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvReviewFeedback"
+        android:text="@string/posted_by"
+        android:paddingRight="@dimen/padding_medium_10dp"/>
+
+    <TextView
+        android:id="@+id/tvReviewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/tvReviewFeedback"
+        android:layout_toRightOf="@id/tvPostedBy"
+        android:text="@string/juan_dela_cruz"
+        android:paddingRight="@dimen/padding_medium_10dp"/>
+
+    <TextView
+        android:id="@+id/tvReviewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvReviewFeedback"
+        android:layout_toRightOf="@id/tvReviewUserName"
+        android:text="@string/sample_date"/>
+
+</RelativeLayout>
